@@ -1,1 +1,2 @@
-asciidoctor-pdf -o pdf/out.pdf adoc/out.adoc
+asciidoctor-pdf -o pdf/$1 adoc/out.adoc
+echo "PDF done."
