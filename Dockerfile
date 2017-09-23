@@ -9,3 +9,5 @@ RUN apt-get update \
   && gem install dpl \
   && gem install --pre asciidoctor-pdf
 
+COPY . /home/
+WORKDIR /home/
