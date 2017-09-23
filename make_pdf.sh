@@ -1,0 +1,1 @@
+asciidoctor-pdf -o pdf/out.pdf adoc/out.adoc
